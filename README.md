@@ -1,27 +1,9 @@
-# Made by JekyllThemes.io – Instructions
-
-If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers.
-
+# PHP UK Website – Instructions
 ---
 
 ## Getting started
 
-Copy the theme files to your website directory.
-
-To run the theme locally, navigate to the theme directory in your terminal and run `bundle install` to install the theme's dependencies. Then run `jekyll serve` to start the Jekyll server.
-
----
-
-## Jekyll basics
-
-If you're not familiar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), and [creating pages](https://jekyllrb.com/docs/pages/).
-
----
-
-## Customizing the theme
-
-Made comes packed with lots of options to let you customize the theme.
+To run the site locally, navigate to the directory in your terminal and run `bundle install` to install the all dependencies. Then run `jekyll serve` to start the Jekyll web server.
 
 ---
 
@@ -29,11 +11,11 @@ Made comes packed with lots of options to let you customize the theme.
 
 The main things you might need to change here are:
 
-`site: Made Jekyll Theme` – change this to your website's name
+`site: PHP UK Conference` – to change the website's name
 
 `paginate: 6` – change this to set the number of blog posts on each page
 
-You can also change more advanced things here like the path names, collections etc. You do not need to change any of these to achieve the same look as the demo, so best to leave everything else unless you are confident.
+You can also change more advanced things here like the path names, collections etc.
 
 ---
 
