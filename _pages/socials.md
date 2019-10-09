@@ -1,0 +1,57 @@
+---
+layout: default
+title: Socials
+metatitle: Conference Socials
+group: "navigation"
+weight: 5
+image: banners/socials.png
+---
+<div class="page-title socials">
+    <div class="wrapper">
+        <h1>Socials</h1>
+        <h2>The pre, mid, and post-conference social events</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="wrapper">
+        <p>An important part of any conference is being able to network with other delegates and PHP UK is no exception. We will be putting on two social events - before and during the conference. We'll have more info on the socials coming soon.</p>
+              <!-- <div class="col-third">
+                  <h2>Wednesday</h2>
+                  <h3>February 20<sup>th</sup></h3>
+                  <br>
+                  <p>Wednesday night kicks off the conference with a night at the pub. We'll be meeting at Finch's pub on Finsbury Square (City Road) from 6pm til close for drinks, snacks, and a chance to meet other delegates before the conference starts.</p>
+                  <p>At 7pm Michael Cullum will be presenting a talk, <a href="/schedule">"Machine Learning and Trend Analysis in PHP"</a>. Drinks and chat will then continue after the presentation.</p>
+                        <p>The pre-conference social is open to anyone with an interest in PHP.<br /><br />
+                        Agenda:<br />
+                        6pm - Drinks, snacks and chat<br />
+                        7pm - Talk by <a href="/speakers#michaelcullum">Michael Cullum</a> <br />
+                        8pm - More drinks and chat<br /><br />
+                      </p>
+                    <p>
+                      <a href="http://www.finchspub.co.uk/">Finch's Pub</a><br />
+                          Downstairs/cellar private bar<br />
+                          12A Finsbury Square<br />
+                          London EC2A 1AN<br />
+                          020 7588 3311<br />
+                          <a href="https://goo.gl/maps/Ruuqk">Google Map</a>
+                      </p>
+                  </div>
+                     <div class="col-third">
+                      <h2>Thursday</h2>
+                      <h3>February 21<sup>st</sup></h3>
+                      <br>
+                      <p>Thursday evening we'll be hosting our main social event at the conference venue.</p>
+                      <p>After talks finish at the end of the day we'll move to the King George for drinks, snacks and chat from 5pm til 9pm.<br><br>We'll be serving some free drinks and beef burgers, veggie burgers, chips and nibbles.</p>
+                      <p>There will also be a few games to play - table football, table tennis, and air hockey.</p>
+                      <p>Thank you to Pearson Frank for sponsoring!</p>
+                  </div>
+                     <div class="col-third">
+                      <h2>Friday</h2>
+                      <h3>February 22<sup>nd</sup></h3>
+                      <br>
+                      <p>Friday night will be our post conference social at the Brewery's <a href="https://grubstreetauthor.co.uk/">Grubstreet Author Rooms</a> from 5pm til 9pm. Curry with rice will be served for dinner and there will be some free drinks as well. <a href="https://vimeo.com/138846749">The Hoops</a> will be performing throughout the night and we'll even have some films on in the <a href="https://grubstreetauthor.co.uk/venue/the-cutting-room/">cinema room</a>.</p>
+                  </div>
+                  <br /><br />
+                  <p>Please note: our <a href="/conduct/">Code of Conduct</a> applies to all venues associated with the conference, including off-site social events.</p>
+    </div>
+</div> -->
