@@ -23,7 +23,7 @@ image: banners/schedule.png
             {% for slot in day.slots %}
             {% if slot.slottype != 'mc' %}
                 <tr class="slot">
-                    <td class="time"rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
+                    <td class="time" rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
                     {% for track in slot.tracks %}
                     <td class="location{% if track.track.tooltip %} tutorial{% endif %}" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
                     {% endfor %}

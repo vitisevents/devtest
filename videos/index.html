@@ -16,10 +16,11 @@ featured_image: /images/social.jpg
     <section class="all-posts">
         <div class="wrap">
             <div class="posts__list grid">
-                {% for post in paginator.videos %}
+                {% for video in site.videos %}
                 {% if forloop.first == true %}
                 <article class="post post-new">
                     <div class="grid">
+                        {% include post-components/video-thumb.html %}
                         <a href="{{ video.id }}">
                             <div class="post__image{% if paginator.page == 1 %} post__image--new{% endif %}"
                                  style="background-image: url({{ post.featured_image }})">
@@ -28,8 +29,8 @@ featured_image: /images/social.jpg
 
                         <div class="post__content-wrap">
                             <div class="post__content">
-                                <time class="post__date label--small">{{ post.date | date: "%B %d, %Y" }}</time>
-                                <h2 class="post__title h4"><a href="{{ video.video}}">{{ video.title }}</a></h2>
+                                <time class="post__date label--small">{{ video.date | date: "%B %d, %Y" }}</time>
+                                <h2 class="post__title h4"><a href="{{ video.video-id}}">{{ video.title }}</a></h2>
                                 <p class="post__subtitle">{{ video.subtitle }}</p>
                                 <p class="post__description">{{ video.description }}</p>
                                 <a href="{{ post.url }}" class="post__link button--text--accent --right">Keep Reading</a>
@@ -38,7 +39,7 @@ featured_image: /images/social.jpg
                     </div>
                 </article>
                 {% else %}
-                {% include component__post-preview.html %}
+                {% include post-components/video-thumb.html %}
                 {% endif %}
                 {% endfor %}
             </div>

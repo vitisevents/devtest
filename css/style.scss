@@ -157,7 +157,8 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 @import "_includes/_section__about";
 @import "_includes/_section__recent-posts";
 
-
+@import "tools/respond";
+@import "components/schedule";
 
 // // - - - - - - - - - - Section styles
 
